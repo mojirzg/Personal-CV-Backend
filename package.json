@@ -37,7 +37,6 @@
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.0",
     "validator": "13.11.0",
-    "win-node-env": "^0.6.1",
     "xss-clean": "0.1.4"
   },
   "devDependencies": {
