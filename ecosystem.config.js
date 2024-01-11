@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: "avanteka-backend",
-      script: "node server.js",
+      script: "node index.js",
       env_production: {
         NODE_ENV: "production",
       },
