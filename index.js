@@ -13,6 +13,7 @@ dotenv.config({ path: ".env" });
 const app = require("./app");
 const config = require("./config/config");
 
+
 const DB = config.mongoose.url;
 
 mongoose.connect(DB, config.mongoose.options).then(() => console.log("DB connection successful!"));
